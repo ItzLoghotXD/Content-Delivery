@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Content Delivery</title>
+  <link rel="icon" href="https://cd.itzloghotxd.qzz.io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cd.itzloghotxd.qzz.io/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <div class="brand">
+          <h1 class="brand-title">Content Delivery Network</h1>
+        </div>
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search files..." class="search-input">
+          <div class="search-icon">🔍</div>
+        </div>
+      </div>
+      <nav class="breadcrumb" id="breadcrumb"></nav>
+    </header>
+
+    <main class="main">
+      <div class="section-header">
+        <h2 id="heading" class="section-title">Index</h2>
+        <div class="file-stats" id="file-stats"></div>
+      </div>
+      
+      <div class="file-container">
+        <div id="file-list" class="loading">
+          <div class="loading-spinner"></div>
+          <div class="loading-text">Loading files...</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cd.itzloghotxd.qzz.io/index.js"></script>
+  <script src="https://cd.itzloghotxd.qzz.io/scripts.js"></script>
+</body>
+</html>
